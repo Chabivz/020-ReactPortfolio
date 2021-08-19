@@ -1,0 +1,16 @@
+.profile {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  
+}
+
+.site-content {
+  flex: 1 ;
+  background: rgb(41,34,101);
+  background: radial-gradient(circle, rgba(41,34,101,1) 0%, rgba(51,105,139,1) 100%);
+}
+
+footer {
+
+}

@@ -1,0 +1,30 @@
+.nav {
+  background: rgb(41,34,101);
+  background: radial-gradient(circle, rgba(41,34,101,1) 0%, rgba(51,105,139,1) 100%);
+  height: 50px;
+  display: flex;
+  flex-direction: column;
+}
+a:link {
+  text-decoration: none;
+  background-color: none;
+  color: white;
+}
+
+a:hover {
+  text-decoration: underline;
+  background-color: none;
+  color: white;
+}
+
+a:active {
+  color: white;
+  text-decoration: underline;
+  background-color: none;
+}
+
+a:visited {
+  color: white;
+  text-decoration: none;
+  background-color: none;
+}

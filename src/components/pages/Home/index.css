@@ -1,0 +1,16 @@
+.container {
+  display: flex;
+  color: white;
+  align-items: center;
+  justify-content: center;
+ 
+}
+
+.kimi-no {
+  font-size: 5em;
+}
+
+.home {
+  padding-top: 250px;
+  width: 250px;
+}
