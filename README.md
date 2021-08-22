@@ -1,70 +1,80 @@
-# Getting Started with Create React App
+# React Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[![Badge](https://img.shields.io/badge/License-MIT-blue)](https://opensource.org/licenses/MIT)
+[![Badge](https://img.shields.io/badge/GitHub-chabivz-blueviolet?style=flat-square&logo=appveyor)](https://github.com/chrisabiva)
 
-## Available Scripts
+Hi Traveler! The Budget Tracker app is an app that can track your expenses and your income. You can download the app and use it whether you are online or offline!
 
-In the project directory, you can run:
+## Table of Contents
 
-### `npm start`
+- [About the Project](#about-the-project)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Questions](#questions)
+- [License](#License)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## About the Project
+- The motivation for this project is to track our income and expenses. The user can log the name of the `Transaction` and value of `Transaction`
+- When I want to `Add Funds`, input the name of the transaction and the amount value and click `Add Funds Button`
+- When I want `Subtract Funds`, input the name of the transaction and the amount value and click `Subtract Funds`
+- An automated dashboard will show with the graph of the transactions!
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- Built with the following packages: 
+  - [CSS](https://www.w3schools.com/css/)
+  - [express](https://www.npmjs.com/package/express)
+  - [HTML](https://www.w3schools.com/html/)
+  - [Javascript](https://www.npmjs.com/package/CSS)
+  - [nodemon](https://www.npmjs.com/package/nodemon)
+  - [mongoose](https://www.npmjs.com/package/mongoose)
+  - [react](https://www.npmjs.com/package/react)
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Installation
 
-### `npm run build`
+- Open [Budget Tracker](https://github.com/Chabivz/020-ReactPortfolio)
+- Clone the repository
+- install all the packages by `npm i`
+- Start the server by typing `npm run start`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Usage
+- Visit the deployed Heroku app [React Portfolio](https://chabivz.github.io/020-ReactPortfolio/)
+- In The Fitness Tracker Home Page. Add a `New Workout`.
+- Enter `Exercise name, Weight (lbs), Sets, Reps and Duration` for `Resistance Workout`
+- Enter `Exercise Name, Distance (miles), and Duration (minutes)` for `Cardio Workout`
+- When I go back to the `Fitness Tracker` I will see my last workout and Add more workout if I click `Continue Workout`
+- When I click `Continue Workout` it will display the 
+  - Total Workout Duration
+  - Exercise Performed 
+  - Total Distance Covered
+  - Total Weight Lifted
+  - Total Sets Performed
+  - Total Reps Performed
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+|Demo|
+|---|
+|![Online Demo](./public/images/fitnesstracker.gif)|
+|Homepage|
+|![Homepage](./public/images/1.png)|
+|Adding Resistance Exercise|
+|![Add Resistance](./public/images/4.png)|
+|Adding Cardio Exercise|
+|![Add Cardio](./public/images/6.png)|
+|Displaying Workout Chart|
+|![Chart](./public/images/5.png)|
 
-### `npm run eject`
+## Question
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- [Email](mailto:chrisabiva@hotmail.com)
+- [Github](https://github.com/Chabivz)
+## License
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+The MIT License (MIT)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Copyright (c) 2015 Chris Kibble
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
-## Learn More
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
