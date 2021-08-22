@@ -8,7 +8,7 @@ export default function Contact() {
       <form>
         <div class="form-group">
           <label for="exampleFormControlInput1">Name</label>
-          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Rey Misterio" />
+          <input type="text" class="form-control" placeholder="Rey Misterio" />
         </div>
         <div class="form-group">
           <label for="exampleFormControlInput1">Email address</label>
