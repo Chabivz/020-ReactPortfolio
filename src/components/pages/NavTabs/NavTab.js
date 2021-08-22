@@ -50,7 +50,7 @@ function NavTabs({ currentPage, handlePageChange }) {
       <li className="nav-li">
         
         
-        <a href='/resume/Resume.pdf' className={currentPage === 'Resume' ? 'nav-link active' : 'nav-link'} target='_blank' rel='noopener noreferrer' download='/resume/Resume.pdf' >Resume</a>
+        <a href='./resume/Resume.pdf' className={currentPage === 'Resume' ? 'nav-link active' : 'nav-link'} target='_blank' rel='noopener noreferrer' download='/resume/Resume.pdf' >Resume</a>
       </li>
     </ul>
   );
