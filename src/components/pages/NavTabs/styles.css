@@ -1,6 +1,6 @@
 .nav {
-  background: rgb(41,34,101);
-  background: radial-gradient(circle, rgba(41,34,101,1) 0%, rgba(51,105,139,1) 100%);
+  background-color: #09192f;
+  color: #3c9a8f;
   height: 50px;
   display: flex;
   flex-direction: column;
@@ -8,23 +8,23 @@
 a:link {
   text-decoration: none;
   background-color: none;
-  color: white;
+  color: #3c9a8f;
 }
 
 a:hover {
   text-decoration: underline;
   background-color: none;
-  color: white;
+  color: #3c9a8f;
 }
 
 a:active {
-  color: white;
+  color: #3c9a8f;
   text-decoration: underline;
   background-color: none;
 }
 
 a:visited {
-  color: white;
+  color: #3c9a8f;
   text-decoration: none;
   background-color: none;
 }

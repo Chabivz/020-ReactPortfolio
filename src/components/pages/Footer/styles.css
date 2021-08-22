@@ -1,0 +1,20 @@
+footer {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  background-color: #09192f;
+  color: #3c9a8f;
+}
+
+.ss-icons {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  
+}
+.ss-icons a img {
+  height: 25px;
+  padding-left: 10px;
+  width: 35px;
+}

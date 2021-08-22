@@ -1,14 +1,20 @@
 import React from 'react';
-
+import './style.css'
 
 export default function funCard(props) {
+
   return (
-    <div class="card border-dark mb-3">
-      <div class="card-header">{props.title}</div>
-      <div class="card-body text-dark">
-        <h5 class="card-title">props.link</h5>
-        <p class="card-text">{props.text}</p>
+    <div className="card">
+      <img src={props.image}></img>
+      <div className="card-body">
+      <div className='cardHeader'>{props.title}</div>
+        <p className="text">{props.text}</p>
       </div>
+      <div className='link-buttons'>
+        <a href={props.github}>Github</a>
+        <a href={props.deployed}>Deployed</a>
+      </div>
+    
     </div>
   );
 }
