@@ -3,7 +3,7 @@
 [![Badge](https://img.shields.io/badge/License-MIT-blue)](https://opensource.org/licenses/MIT)
 [![Badge](https://img.shields.io/badge/GitHub-chabivz-blueviolet?style=flat-square&logo=appveyor)](https://github.com/chrisabiva)
 
-Hi Traveler! The Budget Tracker app is an app that can track your expenses and your income. You can download the app and use it whether you are online or offline!
+Updatated React Portfolio
 
 ## Table of Contents
 
@@ -14,10 +14,6 @@ Hi Traveler! The Budget Tracker app is an app that can track your expenses and y
 - [License](#License)
 
 ## About the Project
-- The motivation for this project is to track our income and expenses. The user can log the name of the `Transaction` and value of `Transaction`
-- When I want to `Add Funds`, input the name of the transaction and the amount value and click `Add Funds Button`
-- When I want `Subtract Funds`, input the name of the transaction and the amount value and click `Subtract Funds`
-- An automated dashboard will show with the graph of the transactions!
 
 - Built with the following packages: 
   - [CSS](https://www.w3schools.com/css/)
@@ -31,25 +27,13 @@ Hi Traveler! The Budget Tracker app is an app that can track your expenses and y
 
 ## Installation
 
-- Open [Budget Tracker](https://github.com/Chabivz/020-ReactPortfolio)
+- Open [React Portfolio](https://github.com/Chabivz/020-ReactPortfolio)
 - Clone the repository
 - install all the packages by `npm i`
 - Start the server by typing `npm run start`
 
 ## Usage
 - Visit the deployed Heroku app [React Portfolio](https://chabivz.github.io/020-ReactPortfolio/)
-- In The Fitness Tracker Home Page. Add a `New Workout`.
-- Enter `Exercise name, Weight (lbs), Sets, Reps and Duration` for `Resistance Workout`
-- Enter `Exercise Name, Distance (miles), and Duration (minutes)` for `Cardio Workout`
-- When I go back to the `Fitness Tracker` I will see my last workout and Add more workout if I click `Continue Workout`
-- When I click `Continue Workout` it will display the 
-  - Total Workout Duration
-  - Exercise Performed 
-  - Total Distance Covered
-  - Total Weight Lifted
-  - Total Sets Performed
-  - Total Reps Performed
-
 
 |Demo|
 |---|
