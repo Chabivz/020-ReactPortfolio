@@ -28,3 +28,12 @@ a:visited {
   text-decoration: none;
   background-color: none;
 }
+
+ul {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  list-style: none;
+  background-color: #09192f;
+  margin: 0;
+}

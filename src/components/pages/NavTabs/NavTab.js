@@ -5,8 +5,8 @@ import './styles.css';
 
 function NavTabs({ currentPage, handlePageChange }) {
   return (
-    <ul className="nav nav-tabs">
-      <li className="nav-item">
+    <ul className="">
+      <li className="">
         <a
           href="#home"
           onClick={() => handlePageChange('Home')}
@@ -17,7 +17,7 @@ function NavTabs({ currentPage, handlePageChange }) {
           Home
         </a>
       </li>
-      <li className="nav-item">
+      <li className="">
         <a
           href="#about"
           onClick={() => handlePageChange('About')}
@@ -27,7 +27,7 @@ function NavTabs({ currentPage, handlePageChange }) {
           About
         </a>
       </li>
-      <li className="nav-item">
+      <li className="">
         <a
           href="#portfolio"
           onClick={() => handlePageChange('Portfolio')}
@@ -37,7 +37,7 @@ function NavTabs({ currentPage, handlePageChange }) {
           Portfolio
         </a>
       </li>
-      <li className="nav-item">
+      <li className="">
         <a
           href="#contact"
           onClick={() => handlePageChange('Contact')}
