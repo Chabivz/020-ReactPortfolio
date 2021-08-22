@@ -5,10 +5,10 @@ import './styles.css';
 
 function NavTabs({ currentPage, handlePageChange }) {
   return (
-    <ul className="nav-ul">
-      <li className="nav-li">
+    <ul className='nav-ul'>
+      <li className='nav-li'>
         <a
-          href="#home"
+          href='#home'
           onClick={() => handlePageChange('Home')}
           // This is a conditional (ternary) operator that checks to see if the current page is "Home"
           // If it is, we set the current page to 'nav-link-active', otherwise we set it to 'nav-link'
@@ -46,6 +46,11 @@ function NavTabs({ currentPage, handlePageChange }) {
         >
           Contact
         </a>
+      </li>
+      <li className="nav-li">
+        
+        
+        <a href='/resume/Resume.pdf' className={currentPage === 'Resume' ? 'nav-link active' : 'nav-link'} target='_blank' rel='noopener noreferrer' download='/resume/Resume.pdf' >Resume</a>
       </li>
     </ul>
   );
